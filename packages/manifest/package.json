@@ -1,6 +1,6 @@
 {
   "name": "@module-federation/manifest",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "license": "MIT",
   "description": "Provide manifest/stats for webpack/rspack MF project .",
   "keywords": [
@@ -29,8 +29,7 @@
   "dependencies": {
     "@module-federation/sdk": "workspace:*",
     "@module-federation/dts-plugin": "workspace:*",
-    "@module-federation/managers": "workspace:*",
-    "find-pkg": "2.0.0"
+    "@module-federation/managers": "workspace:*"
   },
   "exports": {
     ".": {

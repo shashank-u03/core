@@ -1,5 +1,23 @@
 # @module-federation/runtime
 
+## 2.6.0
+
+### Patch Changes
+
+- Updated dependencies [7cfd71b]
+  - @module-federation/runtime-core@2.6.0
+  - @module-federation/sdk@2.6.0
+  - @module-federation/error-codes@2.6.0
+
+## 2.5.1
+
+### Patch Changes
+
+- Updated dependencies [b9b3b8c]
+  - @module-federation/sdk@2.5.1
+  - @module-federation/runtime-core@2.5.1
+  - @module-federation/error-codes@2.5.1
+
 ## 2.5.0
 
 ### Minor Changes

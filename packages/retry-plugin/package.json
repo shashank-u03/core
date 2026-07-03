@@ -1,6 +1,6 @@
 {
   "name": "@module-federation/retry-plugin",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "author": "danpeen <dapeen.feng@gmail.com>",
   "main": "./dist/index.js",
   "module": "./dist/esm/index.js",
@@ -31,6 +31,9 @@
         "./dist/index.d.ts"
       ]
     }
+  },
+  "peerDependencies": {
+    "@module-federation/runtime": "*"
   },
   "devDependencies": {
     "@module-federation/runtime": "workspace:*"

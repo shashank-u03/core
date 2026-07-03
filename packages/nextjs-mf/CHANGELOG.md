@@ -1,5 +1,31 @@
 # @module-federation/nextjs-mf
 
+## 8.8.69
+
+### Patch Changes
+
+- ae197c0: Use `matchRemoteWithNameAndExpose` for `beforeRequest` cache-busting to correctly handle remote aliases that differ from the remote name, including scoped package names.
+- Updated dependencies [9dd3a5b]
+- Updated dependencies [7cfd71b]
+  - @module-federation/enhanced@2.6.0
+  - @module-federation/runtime-core@2.6.0
+  - @module-federation/node@2.7.45
+  - @module-federation/runtime@2.6.0
+  - @module-federation/webpack-bundler-runtime@2.6.0
+  - @module-federation/sdk@2.6.0
+
+## 8.8.68
+
+### Patch Changes
+
+- Updated dependencies [4da5508]
+- Updated dependencies [b9b3b8c]
+  - @module-federation/enhanced@2.5.1
+  - @module-federation/sdk@2.5.1
+  - @module-federation/node@2.7.44
+  - @module-federation/runtime@2.5.1
+  - @module-federation/webpack-bundler-runtime@2.5.1
+
 ## 8.8.67
 
 ### Patch Changes

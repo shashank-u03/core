@@ -1,5 +1,28 @@
 # @module-federation/dts-plugin
 
+## 2.6.0
+
+### Patch Changes
+
+- 2a7f724: Fix dts-plugin expose resolution for extensionless multi-dot paths like `foo.generated` so they correctly infer supported source files such as `.ts`, `.tsx`, `.vue`, `.js`, and `.jsx`, while preserving explicit extensions and directory `index` fallback behavior.
+  - @module-federation/sdk@2.6.0
+  - @module-federation/managers@2.6.0
+  - @module-federation/third-party-dts-extractor@2.6.0
+  - @module-federation/error-codes@2.6.0
+
+## 2.5.1
+
+### Patch Changes
+
+- b79ba22: Update the dts plugin websocket dependency to a version that includes the CVE-2026-45736 fix.
+- b553153: Fix `__dirname is not defined` ReferenceError when `@module-federation/dts-plugin` is consumed as ESM. `DevWorker`, `DevPlugin`, and `createBroker` now derive `__dirname` from `import.meta.url` (matching the existing `DtsWorker` shim) so the ESM build no longer emits bare `__dirname`.
+- b9b3b8c: Fix Windows manifest type URL resolution in dts-plugin consumeTypes and allow the default IP family option to auto-select with `0`.
+- Updated dependencies [b9b3b8c]
+  - @module-federation/sdk@2.5.1
+  - @module-federation/managers@2.5.1
+  - @module-federation/third-party-dts-extractor@2.5.1
+  - @module-federation/error-codes@2.5.1
+
 ## 2.5.0
 
 ### Patch Changes
