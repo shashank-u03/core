@@ -1,6 +1,6 @@
 ---
 '@module-federation/nextjs-mf': minor
-'@module-federation/node': minor
+'@module-federation/utilities': minor
 ---
 
-Add skipFederatedStats extraOption to skip federated-stats.json generation for CSR-only apps.
+Add a `skipFederatedStats` option for CSR-only Next.js builds whose downstream consumers do not use `federated-stats.json`.

@@ -402,12 +402,6 @@ class FederationStatsPlugin {
    * @param {import("webpack").Compiler} compiler
    */
   apply(compiler) {
-    // skip flag allows CSR-only apps to opt out of expensive stats.toJson()
-    // federated-stats.json is only used for SSR chunk flushing
-    if (this._options?.skip) {
-      return;
-    }
-
     const federationPlugins = compiler.options.plugins?.filter(
       (plugin) =>
         [
